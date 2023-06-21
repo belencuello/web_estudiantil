@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda</title>
+    <link rel="stylesheet" href="/Paginas/css/style.css">
+</head>
+<body>
+    <nav>
+        <div>
+            <a href="index.html">Home</a>
+        </div>
+
+        <div>
+            <h1>AGENDA</h1>
+        </div>
+    </nav>
+
+<section>
+    <article>
+        <h2>CALENDARIO</h2>
+        <p>En este calendario se mostraran fechas de examenes, eventos extracurriculares y tutorias</p>
+
+
+        <h3>Selecciona una opcion para mostrar el calendario correspondiente</h3>
+        <div>
+            <a href="#">EVENTOS TECH</a>
+            <a href="#">CHORI FEST</a>
+            <a href="#" onclick="changeIframe('https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%230B8043&ctz=America%2FArgentina%2FBuenos_Aires&showCalendars=1&showPrint=0&showNav=1&showTitle=0&src=ZXMuYXIjaG9saWRheUBncm91cC52LmNhbGVuZGFyLmdvb2dsZS5jb20&color=%230B8043')">CALENDARIO ESCOLAR</a>
+            <div>
+                <a href="#">FECHAS DE EXAMEN</a>
+                <div>
+                    <a href="#">PRIMER AÑO</a>
+                    <a href="#">SEGUNDO AÑO</a>
+                    <!-- link que cambia el url de iframe -->
+                    <a href="#" onclick="changeIframe('https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%230B8043&ctz=America%2FArgentina%2FBuenos_Aires&showPrint=0&src=Y181OGMzMzczNGJkOWU4ZGE1YmJiMTEzMGI1Y2ZjMTVmYmFkNDM4NDVmMWNkYjk0MmNjNDIxZjdlYTlhMjlkYjRkQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&color=%237986CB')">TERCER AÑO</a>
+                </div>
+            </div>
+            <a href="#">TUTORIAS</a>    
+        </div>
+    </article>
+</section>
+
+    <section>
+        <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%230B8043&ctz=America%2FArgentina%2FBuenos_Aires&showCalendars=1&showPrint=0&showNav=1&showTitle=0&src=ZXMuYXIjaG9saWRheUBncm91cC52LmNhbGVuZGFyLmdvb2dsZS5jb20&color=%230B8043" id="calendario" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+    </section>
+</body>
+</html>

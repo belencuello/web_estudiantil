@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centro estudiantil</title>
+    <link rel="stylesheet" href="/Paginas/css/style.css">
+<!--Importar las librerias-->
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+ 
+  <nav class="navbar navbar-expand-sm bg-primary navbar-dark justify-content sticky-top">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="navbar-brand" href="#">
+                <img src="/Paginas/img/logo grande.jpg" alt="" width="30px" height="30px" class="d-inline-block align-top" alt="">
+                its
+              </a>
+            </li>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <!-- Barra de navegacion desplegable -->
+              <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="inicio.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pasantias.html">Pasantias</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="novedades.html">Novedades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="plan-de-estudio.html">Plan de Estudios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                          <a class="nav-link" href="chorifest.html">Chorifest</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" 
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Secciones
+                        </a>
+                    
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="bolsa-de-empleo.html">Bolsa de Trabajo</a></li>
+                        <li><a class="dropdown-item" href="agenda.html">Agenda</a></li>
+                        <li><a class="dropdown-item" href="#">Departamento de Egresados</a></li>
+                        <li><a class="dropdown-item" href="#">Igualdad de genero</a></li>
+                        <li><a class="dropdown-item" href="#">Redes</a></li>
+                        <li><a class="dropdown-item" href="#">Institucional</a></li>
+                        <li><a class="dropdown-item" href="#">Certificados</a></li>
+                      </ul>
+                    </li>
+
+
+<!--  <nav class="navbar bg-info fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+       <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+          
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close" ></button>
+--->         
+        </div>
+        <div class="menu-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            
+            
+           
+            
+           
+            
+          </ul>
+          <form class="d-flex mt-3" role="search">
+            <input class="form-control me-2" type="text" placeholder="" id = "kword" name="kword aria-label="Search">
+            <button class="btn btn-outline-success" type="submit" id="text">Buscar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+    <div id="demo" class="carousel slide" data-ride="carousel">
+
+        <!-- Indicadores -->
+         <ul class="carousel-indicators">
+             <li data-target="#demo" data-slide-to="0" class="active"></li>
+             <li data-target="#demo" data-slide-to="1"></li>
+             <li data-target="#demo" data-slide-to="2"></li>
+             
+         </ul>
+ 
+         <!-- imagenes -->
+       <div class="carousel-inner">
+             <div class="carousel-item active">
+                  <img src="/img/estudiantes.jpg" alt="c1" width="1100" height="500">
+             </div>
+
+             <div class="carousel-item active">
+                  <img src="/img/estudiantes2.jpg" alt="c2" width="1100" height="500">
+             </div>
+
+             <div class="carousel-item active">
+                  <img src="/img/images.jpeg" alt="c3" width="1100" height="500">
+             </div>
+       </div>
+
+
+ </div>  
+</body>
+</html>
