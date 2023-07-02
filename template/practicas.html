@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Centro estudiantil</title>
+    <title>Practicas Profesionales</title>
     <link rel="stylesheet" href="/css/style.css">
-<!--Importar las librerias-->
+    
+    <!--Importar las librerias-->
 
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
@@ -21,8 +22,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
-  <section style="background-color: rgb(0, 162, 255);">
-    <a href="https://www.facebook.com/" target="_blank">
+    <section style="background-color: rgb(0, 162, 255);">
+      <a href="https://www.facebook.com/" target="_blank">
         <img src="/img/facebook-logo-0.png" alt="facebook logo" width="50" height="50" style="border: 20%;" >
       </a>
 
@@ -33,11 +34,9 @@
       <a href="https://www.whatsapp.com/" target="_blank">
         <img src="/img/whatsapp.jpeg" alt="whatsapp logo" width="50" height="50">
       </a>
+    </section>
 
-      
-  </section>
-
-  <nav class="navbar navbar-expand-sm bg-primary navbar-dark justify-content sticky-top">
+ <nav class="navbar navbar-expand-sm bg-primary navbar-dark justify-content sticky-top">
         <ul class="navbar-nav">
             <li class="nav-item">
               <a class="navbar-brand" href="#">
@@ -52,7 +51,7 @@
               <div class="collapse navbar-collapse" id="collapsibleNavbar">
                   <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                      <a class="nav-link" href="inicio.html">Home <span class="sr-only">(current)</span></a>
+                      <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                     </li>
 
                     <li class="nav-item">
@@ -70,12 +69,12 @@
                     <li class="nav-item">
                           <a class="nav-link" href="chorifest.html">Chorifest</a>
                     </li>
-
+                    <!--Dejo comentado no se si va
                     <li class="nav-item">
                           <a class="nav-link" href="practicas.html">Practicas</a>
                     </li>
-
-                  <!--Dejo comentado no se si va
+                    
+                  
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" 
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -107,102 +106,90 @@
         </div>
       </div>
     </div>
-  </nav>
-  <br>
-    <div id="demo" class="carousel slide" data-ride="carousel"style="margin-top: 5%;">
+ </nav>
+  <div class="card text-center" style="margin-top:4%;">
+    <div class="card-body">
 
-        <!-- Indicadores -->
-         <ul class="carousel-indicators">
-             <li data-target="#demo" data-slide-to="0" class="active"></li>
-             <li data-target="#demo" data-slide-to="1"></li>
-             <li data-target="#demo" data-slide-to="2"></li>
-             
-         </ul>
- 
-         <!-- imagenes -->
-       <div class="carousel-inner">
-            <div class="carousel-item active">
-                  <img src="/img/estudiantes.jpg" alt="c1" width="1400" height="500">
-            </div>
+        <h1>Practicas Profesionales</h1>
+        <h3>Quiero ofrecer Practicas en mi organizacion o en mi empresa</h3>
+  
+    </div>
+  </div>
 
-            <div class="carousel-item">
-                <img src="/img/estudiantes2.jpg" alt="C2" width="1100" height="500">
-            </div>
+  <!--card para video--->
 
-            <div class="carousel-item">
-                <img src="/img/images.jpeg" alt="c3" width="1100" height="500">
-            </div>
-       </div>
-    </div> 
-    <br>
-    <section style="margin-top: 5%; background-color: aquamarine;"  >
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-        Accusantium eius consequuntur atque. 
-        Facere, ipsa? Repellat nemo, adipisci ipsam ipsa porro 
-        excepturi similique nesciunt. Deserunt tenetur sequi enim 
-        minima modi excepturi?
-      </p>
-    </section>
-    <!--Pongo dentro del footer 2 card. 1 card tiene el form y el 2do card la ubicacion-->
-    <footer style="background-color: rgb(0, 195, 255); ">
-      <div class="row">
-        <div class="col-sm-6">
-          <div class="card text-center" style="width: 45%; height: 85%;margin-top: 5%; align-items: center; margin-left: 30%">
-            <div class="card-body">
-      
-              <div class="form">
-                <h5>Contactanos</h5>
-                  <form action="GET">
-                      <div class="row"style="margin-top: 4%">
+  <div class="card" style="width: 100%;margin-top: 2%;background-color:aqua">
+    <div class="card-body">
+     <img class="card-img-top" src="" alt="video">
+    </div>
+  </div>
 
-                        <div class="col">
-                          
-                          <input type="text"class="form-control" name="nombre"placeholder="Nombre">
-                        </div>
+  <!--3 card para distintas imagenes--->
 
-                        <div class="col">
-                            
-                            <input type="email" class="form-control" name="email"placeholder="email">
-                        </div>
-                      </div>
-
-                      <div class="form-row">
-                        <div class="form-group col-md-4">
-                          <textarea name="text-tarea" id="text-tarea" cols="30" rows="3" style="width: 323%; margin-top: 4%;"></textarea>
-                        </div>
-                      </div>
-
-                      <button type="button" class="btn btn-primary" style="margin-top: 0%;" >Enviar</button>
-
-                    </form>
-              </div>
-            </div>
-          </div>
-        </div>
-      
-        <div class="col-sm-6">
-          <div class="card text-center"style="width: 45%; height: 85%;margin-top: 5%; align-items: center; margin-heigt: 30%">
-            <div class="card-body">
-              <h5 style="margin-top: 2%;">Encontranos en</h5>
-              <a href="https://villaellibertador.itscordoba.edu.ar/" target="_blank" width="50" height="50" style="margin-top: 5%">
-                <img src="/img/ubicacion.png" alt="ubicacion logo" width="50" height="50">
-                
-              </a>
-            </div>
-          </div>
-        </div>
+  <div class="row" style="margin-top: 2%;background-color:black ">
+   <div class="col-sm-3">
+    <div class="card">
+      <div class="card-body">
+        <img class="card-img-top" src="" alt="imagen1">
       </div>
-              
+    </div>
+   </div>
+  
+   <div class="col-sm-3">
+    <div class="card">
+      <div class="card-body">
+        <img class="card-img-top" src="" alt="imagen2">
+      </div>
+    </div>
+   </div>
+
+   <div class="col-sm-3">
+    <div class="card">
+      <div class="card-body">
+        <img class="card-img-top" src="" alt="imagen3">
+      </div>
+    </div>
+   </div>
+
+   <div class="col-sm-3">
+    <div class="card">
+      <div class="card-body">
+        <img class="card-img-top" src="" alt="imagen4">
+      </div>
+    </div>
+   </div>
+  </div>
+
+  
+
+
+
+
+
+
+
+
+
+  <section style="margin-top: 2%;">
+    <h1 style="margin-left: 10%;"><img url=(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS32tPIXMQozRYxuiwdy0ViLz7-JqKoeUZUKw&usqp=CAU) alt="imagen5" class="derecha">Les estudiantes andan diciendo...</h1>
+    <p style="margin-right: 50%;margin-left: 10%;">
+        Lorem ipsum dolor, sit amet consectetur
+         adipisicing elit. Dolore iure nostrum 
+         dicta nesciunt consequuntur incidunt 
+         dolor, accusantium libero facilis odit
+          reprehenderit quis, minima illo 
+          perferendis expedita magnam ipsum 
+          reiciendis nulla.
+        
+    </p>
+  </section>
+
+  
+   
+
+
 
       
-
-        
-    
-    
-    
-    
-    
-    </footer> 
+  
 </body>
 </html>
